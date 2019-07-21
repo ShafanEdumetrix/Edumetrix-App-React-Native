@@ -1,0 +1,2 @@
+import TermsOfServicesScreenContainer from './TermsOfServicesScreenContainer';
+export default TermsOfServicesScreenContainer;

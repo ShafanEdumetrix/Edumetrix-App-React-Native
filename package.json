@@ -1,0 +1,64 @@
+{
+  "name": "EduMetrix",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.4.2",
+    "@react-native-community/netinfo": "^3.2.1",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "react": "16.8.3",
+    "react-native": "0.59.4",
+    "react-native-af-video-player": "^0.2.1",
+    "react-native-auto-height-image": "^1.1.0",
+    "react-native-check-box": "^2.1.7",
+    "react-native-dash": "0.0.9",
+    "react-native-gesture-handler": "^1.1.0",
+    "react-native-image-picker": "^0.28.1",
+    "react-native-material-menu": "^0.5.1",
+    "react-native-modal": "^10.0.0",
+    "react-native-modal-datetime-picker": "^7.2.0",
+    "react-native-modal-dropdown": "^0.6.2",
+    "react-native-paper": "^2.15.2",
+    "react-native-popup-menu": "^0.15.6",
+    "react-native-progress": "^3.6.0",
+    "react-native-scalable-image": "^0.5.1",
+    "react-native-snackbar": "^0.5.5",
+    "react-native-splash-screen": "^3.2.0",
+    "react-native-vector-icons": "^6.4.2",
+    "react-native-video": "^4.4.1",
+    "react-native-video-controls": "^2.2.3",
+    "react-navigation": "^3.8.1",
+    "react-redux": "^7.0.2",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^5.10.0",
+    "redux-saga": "^1.0.2",
+    "tipsi-dash-line": "^0.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/runtime": "^7.4.3",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.7.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-native": "^3.6.0",
+    "jest": "^24.7.1",
+    "metro-react-native-babel-preset": "^0.53.1",
+    "prettier-eslint": "^8.8.2",
+    "react-test-renderer": "16.8.3"
+  },
+  "rnpm": {
+    "assets": [
+      "./app/assets/fonts"
+    ]
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

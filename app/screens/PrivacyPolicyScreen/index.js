@@ -1,0 +1,2 @@
+import PrivacyPolicyScreenContainer from './PrivacyPolicyScreenContainer';
+export default PrivacyPolicyScreenContainer;

@@ -1,0 +1,119 @@
+import { StyleSheet } from 'react-native';
+import AppStyles from '../../config/styles';
+import metrics from '../../config/metrics';
+
+const styles = StyleSheet.create({
+    circleView:{
+        borderColor:AppStyles.color.COLOR_PRIMARY,
+        borderRadius:40,
+        borderWidth:2,
+        height:80,
+        width:80    
+    },
+    container: {
+        flex: 1
+    },
+    submitText:{
+        color:AppStyles.color.COLOR_WHITE,
+        fontFamily:AppStyles.fonts.FONT_REGULAR,
+        fontSize:16
+    },
+    footerView:{justifyContent:'center',alignItems:'center',flex:1},
+    submitButton:{
+        alignItems:'center',
+        backgroundColor:AppStyles.color.COLOR_BLACK,
+        borderRadius:14,
+        justifyContent:'center',
+        marginHorizontal:5,
+        paddingHorizontal:8,
+        paddingVertical:4,
+        marginVertical:4 
+    },
+    modalView:{
+        alignItems:'center',
+        backgroundColor:AppStyles.color.COLOR_WHITE,
+        borderRadius:6,
+        justifyContent:'space-between'
+    },
+    loader:{
+        flex:1,
+        alignItems:'center',
+        justifyContent:'center'
+    },
+    sucessText:{
+        fontFamily:AppStyles.fonts.FONT_REGULAR,
+        fontSize:16,
+        color:AppStyles.color.COLOR_BLACK,
+        padding:8
+    },
+    followersView:{
+        flexDirection:'row',
+        padding:3
+    },
+    noData:{
+        fontFamily:AppStyles.fonts.FONT_REGULAR,
+        fontSize:18,
+        color:AppStyles.color.COLOR_BLACK
+    },
+    images:{
+        height:25,
+        paddingHorizontal:4,
+        resizeMode:'contain',
+        width:25
+    },
+    itemTextView:{
+        justifyContent:'center',
+        paddingHorizontal:7
+    },
+    itemView:{
+        alignItems:'center',
+        flexDirection:'row',
+        justifyContent:'space-between',
+        marginHorizontal:20,
+        marginVertical:22,
+    },
+    nameText:{
+        padding:3,
+        width:metrics.screenWidth/2.2,
+        fontSize:16,
+        color:AppStyles.color.COLOR_DRAWER,
+        fontFamily:AppStyles.fonts.FONT_REGULAR
+    },
+    countryText:{
+        width:metrics.screenWidth/2.2,
+        fontSize:13,
+        color:AppStyles.color.COLOR_ASH,
+        fontFamily:AppStyles.fonts.FONT_REGULAR
+    },
+    searchView:{
+        backgroundColor:"#E6E6E6",borderRadius:25,
+        marginVertical:10,
+        marginHorizontal:20,
+        flexDirection:'row',
+        alignItems:'center',
+        justifyContent:'space-between'
+      },
+      iconStyle:{paddingHorizontal:5},
+      textInputSearch:{
+        height:40,paddingLeft:8,width:metrics.screenWidth-75,fontSize:16
+      },
+    
+    followersText:{
+        fontSize:12,
+        color:AppStyles.color.COLOR_SCARLET,
+        fontFamily:AppStyles.fonts.FONT_REGULAR
+    },
+    subItemView:{
+        flexDirection:'row'
+    },
+    userImage:{
+        height:60,
+        width:60,
+        borderRadius:30,
+        borderWidth:2,
+        borderColor:AppStyles.color.COLOR_SCARLET,
+
+    }
+});
+
+export default styles;

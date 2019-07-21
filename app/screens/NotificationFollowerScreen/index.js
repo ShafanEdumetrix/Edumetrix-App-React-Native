@@ -1,0 +1,2 @@
+import NotificationFollowerScreenContainer from './NotificationFollowerScreenContainer';
+export default NotificationFollowerScreenContainer;

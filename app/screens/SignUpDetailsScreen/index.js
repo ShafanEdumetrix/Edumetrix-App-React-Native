@@ -1,0 +1,2 @@
+import SignUpDetailsScreenContainer from './SignUpDetailsScreenContainer';
+export default SignUpDetailsScreenContainer;
